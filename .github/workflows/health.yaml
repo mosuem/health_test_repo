@@ -11,5 +11,6 @@ jobs:
       ignore_license: pkgs/package3
       ignore_coverage: pkgs/package2
       ignore_packages: pkgs/package1
+      local_debug: true
     permissions:
       pull-requests: write
